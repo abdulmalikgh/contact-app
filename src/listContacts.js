@@ -14,7 +14,7 @@ class ListContacts extends Component {
           query: query.trim()
       })
     }
-    clearQuery =()=>{
+    clearQuery = ()=>{
         this.updateQuery(' ')
     }
     render() {
